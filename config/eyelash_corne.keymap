@@ -56,7 +56,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <30>;
+        tap-ms = <100>;
     };
 
     combos {
@@ -174,7 +174,7 @@
                               &kp LEFT_WIN  &mo 1  &kp SPACE                                               &kp ENTER  &mo 2  &kp RALT
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         NavNum {
