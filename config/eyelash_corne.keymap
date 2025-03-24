@@ -174,7 +174,7 @@
                               &kp LEFT_WIN  &mo 1  &kp SPACE                                               &kp ENTER  &mo 2  &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
         };
 
         NavNum {
