@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - AL SELECT TASK
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-down-bold$$
   - N
   - M
