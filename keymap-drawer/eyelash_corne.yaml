@@ -32,7 +32,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
-  - '&td1'
+  - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - V
   - B
   - {t: '$$mdi:keyboard-return$$', type: enter}
