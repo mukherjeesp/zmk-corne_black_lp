@@ -49,7 +49,9 @@
 
         tap-ms = <100>;
     };
-
+&mt {
+    tapping-term-ms = <400>;
+};
     combos {
         compatible = "zmk,combos";
 
